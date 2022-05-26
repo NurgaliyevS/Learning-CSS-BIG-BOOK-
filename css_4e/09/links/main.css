@@ -124,3 +124,16 @@ body {
 	margin-left: 0px;
 	padding-left: 150px;
 }
+
+.resources a {
+	border-bottom: none;
+}
+
+.resources a[href*='://'] {
+	background: url(images/globe.png) no-repeat right top;
+}
+
+.resources a {
+	border-bottom: none;
+	padding-right: 22px;
+}
